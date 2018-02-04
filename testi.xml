@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite name="tietorakenteet" time="0.094" tests="21" failures="1" errors="0" skipped="0" >
+    <testcase name="test_lisaa_kaksi_tuotetta_tuotelistalle" time="0.012" >
+    </testcase>
+    <testcase name="test_listan_tulostus_onnistuu" time="0.014" >
+    </testcase>
+    <testcase name="test_listan_tulostus_epaonnistuu" time="0.003" >
+    </testcase>
+    <testcase name="test_tuotelistan_tyhjennys_onnistuu" time="0.004" >
+    </testcase>
+    <testcase name="test_tuotelistan_tyhjennys_epaonnistuu" time="0.002" >
+    </testcase>
+    <testcase name="test_tuotelistan_tyhjennys_epaonnistuu" time="0.002" >
+    </testcase>
+    <testcase name="test_hae_tuotetiedot_listasta_loytyy" time="0.002" >
+    </testcase>
+    <testcase name="test_hae_tuotetiedot_listasta_ei_loydy" time="0.002" >
+    </testcase>
+    <testcase name="test_lisaa_palautus_onnistuu" time="0.005" >
+    </testcase>
+    <testcase name="test_lisaa_palautus_tyhja_tuotelista" time="0.002" >
+    </testcase>
+    <testcase name="test_laskepalautukset_ei_tyhja" time="0.002" >
+    </testcase>
+    <testcase name="test_laskepalautukset_tyhja" time="0.002" >
+    </testcase>
+    <testcase name="test_laske_tuotteen_palautukset_ei_tyhja" time="0.002" >
+    </testcase>
+    <testcase name="test_laske_tuotteen_palautukset_tyhja" time="0.002" >
+    </testcase>
+    <testcase name="test_laske_pantit_ei_tyhja" time="0.004" >
+    </testcase>
+    <testcase name="test_laske_pantit_tyhja_tuotelista" time="0.002" >
+    </testcase>
+    <testcase name="test_laske_pantit_tyhja_palautuslista" time="0.002" >
+    </testcase>
+    <testcase name="test_tulosta_kuitti" time="0.012" >
+    </testcase>
+    <testcase name="test_tulosta_kuitti_tyhjat_listat" time="0.003" >
+    </testcase>
+    <testcase name="test_tulosta_kuitti_tyhja_palautuslista" time="0.003" >
+    </testcase>
+    <testcase name="test_tulosta_kuitti_integraatio" time="0.009" >
+      <failure><![CDATA[No entries for symbol __wrap_laskepalautukset.
+mock_tietorakenteet.c:8: error: Could not get value to mock function __wrap_laskepalautukset
+There were no previously returned mock values for this test.
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

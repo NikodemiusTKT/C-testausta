@@ -1,0 +1,3 @@
+gcc -Wl,-wrap=hae_tuotetiedot_listasta -Wl,-wrap=laskepalautukset -Wl,-wrap=laske_pantit -Wl,-wrap=laske_tuotteen_palautukset -Wl,-wrap=aikaleima tietorakenteet.c test_tietorakenteet.c mock_tietorakenteet.c laske_pantit.c laske_tuotteen_palautukset.c laskepalautukset.c -o test_tietorakenteet apufunktiot.c hae_tuotetiedot_listasta.c -D UNIT_TESTING -l cmocka
+
+gcc -Wl,-wrap=hae_tuotetiedot_listasta -Wl,-wrap=laskepalautukset -Wl,-wrap=laske_pantit -Wl,-wrap=laske_tuotteen_palautukset -Wl,-wrap=aikaleima tietorakenteet.c test_tietorakenteet.c mock_tietorakenteet.c laske_pantit.c laske_tuotteen_palautukset.c laskepalautukset.c -o test_tietorakenteet apufunktiot.c hae_tuotetiedot_listasta.c -D UNIT_TESTING -l cmocka
